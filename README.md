@@ -2,7 +2,7 @@
 
 Ici, se trouvent tous les codes, fichiers et devoir en relation avec l'ue design pattern
 
-## I- comment se naviger dans le projet?
+## I- comment naviger dans le projet?
 
 le projet est constitué de dossiers principaux tels que :
 
