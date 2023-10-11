@@ -7,7 +7,7 @@ public final class Arithmetique {
     // attributs de arithmetique no static mais privés
     private int x;
     private int y;
-    private String nom;
+    private String nom = "Math";
 
     // constructeur de l'objet arithmetique
     private Arithmetique (){
