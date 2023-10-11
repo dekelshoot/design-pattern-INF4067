@@ -1,14 +1,24 @@
 # design-pattern-INF4067
-ici se trouve tous les codes, fichiers et devoir en relation avec l'ue design patter
 
-## comment se repérer dans le projet ?
+Ici, se trouvent tous les codes, fichiers et devoir en relation avec l'ue design pattern
 
-### code
-le dossier code comme son 'om l'indique cest ke dossier ou se trouvent tous les codes qui ont étés écris pour cette matière
+## commentse naviger dans le projet?
 
-### models
-le dossier models comme son nom l'indique est le dossier ou some trouve toutes modélisations qui ont ete réalisés tout au long de ce cours
+le projet est constitué de dossiers principaux tels que :
 
-### diagramme
+### model
 
-le dossier diagramme est le dossier ou se trouve le code .draw de toutes les modélisations 
+qui est le dossier ou sont stoqués toutes les modélisations faites au cour de cette année enregistré dans un fichier .pdf
+dans ce dossier nous avons - construction.pdf ou sont stockés toutes les modélisations liés aux patterns de construction - structuration.pdf ou sont stockés toutes les modélisations liés aux patterns de structuration
+
+### construction
+
+ici nous retrouvons tous le code de différents pattern de construction. nous avons:
+
+#### factoryMethode
+
+nous avons ici le code du pattern factoryMethode
+
+##### objectif
+
+##### participants
