@@ -18,7 +18,10 @@ Ici, se trouvent tous les codes, fichiers et devoir en relation avec l'ue design
 
 #### 2-1- factoryMethode
 
-    nous avons [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/FactoryMethodes) le code du pattern factoryMethode
+nous avons :
+
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/FactoryMethodes) le code du pattern factoryMethode
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/diagrammes) le diagram
 
 ##### objectif:
 
@@ -37,3 +40,28 @@ Ici, se trouvent tous les codes, fichiers et devoir en relation avec l'ue design
 - Client : le classe(programme) qui fait appel à la fabrique pour lui fournir des objets de type Produit
 
 #### 2-2- factory
+
+nous avons :
+
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/FactoryMethodes) le code du pattern factory
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/diagrammes) le diagram
+
+##### objectif:
+
+> Permet de créer un objet dont le type dépend du contexte. L’utilisation d’une fabrique permet de rendre l’instanciation d’objets
+> plus flexible qu’avec l’opérateur new
+
+### cas d'utilisation
+
+> Il est utilisé lorsqu’à l’exécution il est nécessaire de déterminer dynamiquement quel objet d’un ensemble de sous-classes doit être instancier.
+
+##### participants
+
+- FrabriqueAbstraite : Classe abstraite qui abrite la signature de la méthode de fabrique et l’implémentation des méthodes qui invoquent cette méthode de
+  fabrique.
+- FabriqueConcrete : Classe concrète qui implémente la méthode fabrique. On
+  peut avoir plusieurs fabriques concrètes.
+- Produit : la classe abstraite dont les sous –classes seront instanciées
+- ProduitConcret : les sous classes concrètes à instancier
+- Client : le classe(programme) qui fait appel à la fabrique pour lui fournir des
+  objets de type Produit
