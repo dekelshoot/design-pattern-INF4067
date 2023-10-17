@@ -31,7 +31,7 @@ nous avons :
 > Permet de créer un objet dont le type dépend du contexte. L’utilisation d’une fabrique permet de rendre l’instanciation d’objets
 > plus flexible qu’avec l’opérateur new
 
-####### cas d'utilisation:
+##### cas d'utilisation:
 
 > Il est utilisé lorsqu’à l’exécution il est nécessaire de déterminer dynamiquement quel objet d’un ensemble de sous-classes doit être instancier.
 
@@ -54,7 +54,7 @@ nous avons :
 > Permet de créer un objet dont le type dépend du contexte. L’utilisation d’une fabrique permet de rendre l’instanciation d’objets
 > plus flexible qu’avec l’opérateur new
 
-####### cas d'utilisation:
+##### cas d'utilisation:
 
 > Il est utilisé lorsqu’à l’exécution il est nécessaire de déterminer dynamiquement quel objet d’un ensemble de sous-classes doit être instancier.
 
