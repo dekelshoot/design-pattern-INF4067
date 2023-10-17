@@ -65,3 +65,96 @@ nous avons :
 - ProduitConcret : les sous classes concrètes à instancier
 - Client : le classe(programme) qui fait appel à la fabrique pour lui fournir des
   objets de type Produit
+
+#### 2-3- AbstractFactory
+
+nous avons :
+
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/AbstractFactory) le code du pattern Abstractfactory
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/AbstractFactoryNouvelleFamille) le code du pattern Abstractfactory avec une nouvelle famille
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/diagrammes) le diagram
+
+##### objectif:
+
+> Le but est de créer des objets regroupés en familles sans avoir à
+> connaître leurs classes concrètes.
+> Permet de fournir une interface unique pour instancier des objets
+> d’une même famille sans avoir à connaitre les classes à instancier.
+
+### cas d'utilisation
+
+lorsque :
+
+- Le système est indépendant de la création des objets qu’il utilise
+- Le système est capable de créer des objets d’une même famille
+
+##### participants
+
+- FrabriqueAbstraite : interface spécifiant les signatures des méthodes
+  créant les différents objets
+- FrabriqueConcrete (1 et 2) : classes implémentant les méthodes de
+  création d’objets. Connaissent les familles et les produits, capable de
+  créer une instance d’un produit pour une famille.
+- Produit (A et B) : interfaces (ou classes abstraites) des produits
+  indépendamment de leur famille.
+- Produit (Ax et Bx) : introduisent les familles de produits
+- Client : le classe(programme) qui fait appel à la fabrique pour lui
+  fournir des objets de type Produit
+
+#### 2-4- Singleton
+
+nous avons :
+
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/Singleton) le code du pattern Singleton
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/arithmetique) le code du pattern Single auquel on a ajouter des foctions arithmetique (la class Arithmetique)
+
+##### objectif:
+
+> L’objectif du pattern SINGLETON est de garantir qu’une classe ne possède qu’une seule instance et de fournir un point d’accès global à
+
+### cas d'utilisation
+
+lorsque :
+
+- Est utilisé lorsque l'on a besoin d'exactement un objet pour coordonner des opérations dans un système.
+
+##### participants
+
+- Un seul participant : la classe singleton
+- Ses propriétés : - Le ou les constructeurs sont privés. Redéfinir le constructeur par
+  défaut, si aucun n’est explicitement défini. - Une attribut de classe : pour stocker l’unique instance en cours - Un getter static et public : pour renvoyer l’instance et la créer au
+  besoin
+
+#### 2-5- Bulder
+
+nous avons :
+
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/Singleton) le code du pattern Singleton
+- [ici](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/construction/arithmetique) le code du pattern Single auquel on a ajouter des foctions arithmetique (la class Arithmetique)
+
+##### objectif:
+
+> Le but est de créer des objets regroupés en familles sans avoir à
+> connaître leurs classes concrètes.
+> Permet de fournir une interface unique pour instancier des objets
+> d’une même famille sans avoir à connaitre les classes à instancier.
+
+### cas d'utilisation
+
+lorsque :
+
+- Le système est indépendant de la création des objets qu’il utilise
+- Le système est capable de créer des objets d’une même famille
+
+##### participants
+
+- FrabriqueAbstraite : interface spécifiant les signatures des méthodes
+  créant les différents objets
+- FrabriqueConcrete (1 et 2) : classes implémentant les méthodes de
+  création d’objets. Connaissent les familles et les produits, capable de
+  créer une instance d’un produit pour une famille.
+- Produit (A et B) : interfaces (ou classes abstraites) des produits
+  indépendamment de leur famille.
+- Produit (Ax et Bx) : introduisent les familles de produits
+- Client : le classe(programme) qui fait appel à la fabrique pour lui
+  fournir des objets de type Produit
