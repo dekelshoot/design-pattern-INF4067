@@ -4,13 +4,13 @@ Ici, se trouvent tous les codes, fichiers et devoir en relation avec l'ue design
 
 ## I- comment naviger dans le projet?
 
-    le projet est constitué de dossiers principaux tels que :
+le projet est constitué de dossiers principaux tels que :
 
 ### 1- model
 
 > qui est le dossier ou sont stockés toutes les modélisations faites au cours de cette année enregistrée dans un fichier .pdf
 
-    dans ce dossier nous avons
+dans ce dossier nous avons
 
 - construction.pdf ou sont stockés toutes les modélisations liés aux patterns de construction
 - structuration.pdf ou sont stockés toutes les modélisations liés aux patterns de structuration
