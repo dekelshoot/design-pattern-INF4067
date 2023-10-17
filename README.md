@@ -159,7 +159,7 @@ lorsque :
 - Directeur : construit un objet en utilisant l’interface du Monteur
 - Produit : représente l’objet complexe en cours de construction
 
-#### 2-6- Bulder
+#### 2-6- Prototype
 
 nous avons :
 
