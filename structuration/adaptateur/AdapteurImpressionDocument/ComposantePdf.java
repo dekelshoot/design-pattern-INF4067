@@ -2,7 +2,7 @@ package structuration.adaptateur.AdapteurImpressionDocument;
 
 public class ComposantePdf {
     public void pdfFixeContenu(){
-        System.out.println("pdfFiceContenu()");
+        System.out.println("pdfFixeContenu()");
     }
     public void pdfPrepareAffichage(){
         System.out.println("pdfPrepareAffichage()");
