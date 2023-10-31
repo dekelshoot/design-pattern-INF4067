@@ -187,3 +187,76 @@ lorsque :
   peuvent hériter ou surcharger la méthode clone().
 - Le Client: va se charger d'appeler les méthodes de
   clonage via sa méthode operation().
+
+### 3- Structuration
+
+> ici nous retrouvons tous le code de différents pattern de Structuration. nous avons:
+
+#### 3-1- adapteur
+
+nous avons :
+
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/adaptateur/Adaptateur) le code du pattern adapteur
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/blob/main/models/Structuration.pdf) le diagram
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/adaptateur/AdaptateurCarre) le code du pattern adapteur qui adapte le rectangle en carre
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/adaptateur/AdapteurImpressionDocument) le code du pattern adapteur implemente l'impression de document
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/adaptateur/adaptateurHeritantDlist) le code du pattern adapteur heritant de Dlist
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/adaptateur/adaptateurImplementantDlist) le code du pattern adapteur implementant de Dlist
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/adaptateur/adaptateurUtilisantLaFileEtDlist) le code du pattern adapteur adaptant la file en de Dlist
+
+##### objectif:
+
+> Son but est de convertir l’interface d’une classe existante en un
+> autre attendue par le client également existants afin qu’ils
+> puissent travailler ensemble.
+
+##### cas d'utilisation:
+
+> On l'utilise lorsque l'on veut confier à une classe existante une nouvelle interface pour répondre aux besoins de clients.
+
+##### participants
+
+- Interface : introduit la signature des méthodes de l’objet
+- Client : programme ou classe qui interagit avec les objets
+  répondant à interface
+- Adaptateur : implémente les méthodes de Interface en
+  invoquant les méthodes de l’objet adapte
+- Adapte : l’objet dont l’interface doit être adaptée pour
+  correspondre a Interface.
+
+#### 3-2- Composite
+
+nous avons :
+
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/composite/Composite) le code du pattern Composite
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/blob/main/models/Structuration.pdf) le diagram
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/composite/ComositeTexte) le code du pattern Composite du Texte paragraphe et des section
+- [**ici**](https://github.com/dekelshoot/design-pattern-INF4067/tree/main/structuration/composite/CompositeRepertoire) le code du pattern Composite du systeme de fichier
+
+##### objectif:
+
+> Il permet de combiner des objets en structures plus grandes.
+> Il décrit une façon de traiter de la même manière les objets
+> simples et les objets composites .
+> Composer des objets dans des structures arborescentes pour
+> représenter des hiérarchies composants/composés
+> Permet au client de manipuler uniformément les objets simples et
+> les objets au sein de leurs compositions
+
+##### cas d'utilisation:
+
+> On l'utilise lorsque l'on veut omposer des objets dans des structures arborescentes pour représenter des hiérarchies composants/composés
+
+##### participants
+
+- Component
+  - déclare l’interface commune à tous les objetss
+  - déclare le comportement par défaut pour toutes les classes
+- Leaf : représente une feuille
+  - Implémente le comportement élémentaire
+- Composite : définit le comportement des composants ayant des
+  fils, stocke les fils et implémente les opérations nécessaires à leur
+  gestion.
+- Client : utilise l’interface component
+  - Si le receveur est une feuille la requête est directement traitée
+  - Sinon le composite retransmet la requête à ses fils.
