@@ -1,6 +1,6 @@
 package structuration.composite.Composite;
 
-import structuration.adaptateur.Adaptateur.Interface;
+
 
 public class Client {
      public static void main(String[] args) {
